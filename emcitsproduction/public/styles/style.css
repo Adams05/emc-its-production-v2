@@ -1,0 +1,387 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --gray-background: #898a8d;
+  --blue-background: #1c355e;
+  --background-img: url('../images/Octo-Background.jpg');
+  --font: 'Oswald', sans-serif;
+}
+
+body {
+  background-image: var(--background-img);
+}
+
+/* Common styles */
+.grid-2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.flex {
+  display: flex;
+}
+
+.center {
+  text-align: center;
+}
+
+.blue {
+  color: var(--blue-background);
+}
+
+.center-element {
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+}
+
+.large-title {
+  font-size: 2.0rem;
+  font-family: var(--font);
+}
+
+.medium-title {
+  font-size: 1.7rem;
+  font-family: var(--font);
+}
+
+.small-title {
+  font-size: 1.3rem;
+  font-family: var(--font);
+}
+
+.left {
+  text-align: left;
+}
+
+.white {
+  color: #fff;
+}
+
+.container {
+  max-width: 1100px;
+  width: 100%;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.card-image {
+  width: 100%;
+  height: auto;
+  background: #fff;
+  box-shadow: 5px 5px 5px gray;
+}
+
+.font {
+  font-family: var(--font);
+}
+
+.mt-2 {
+  margin-top: 20px;
+}
+
+.mb-4 {
+  margin-bottom: 40px;
+}
+
+.p-2 {
+  padding: 20px;
+}
+
+.pl-2 {
+  padding-left: 20px;
+}
+
+.pr-2 {
+  padding-right: 20px;
+}
+
+/* Styles for Navbar */
+.nav {
+  width: 100%;
+  height: 150px;
+  background:  var(--gray-background);
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.lower-nav {
+  width: 100%;
+  height: 80px;
+  background: var(--blue-background);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-contact-info {
+  display: flex;
+  gap: 30px;
+}
+
+.icons {
+  width: 75px;
+  height: 50px;
+}
+
+.contact-info {
+  display: flex;
+  align-items: center;
+}
+
+.nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav a:hover {
+  text-decoration: underline;
+}
+
+/* Styles for home page */
+.top-grid {
+  display: flex;
+  justify-content: center;
+}
+
+.bottom-grid {
+  display: flex;
+  justify-content: center;
+}
+
+/* Styles for Footer */
+.footer {
+  background: var(--blue-background);
+  width: 100%;
+  height: 100px;
+  margin-top: 20px;
+  overflow: hidden;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.footer-wrapper {
+  display: flex;
+  align-items: center;
+  margin-right: 400px;
+}
+
+.footer-list {
+  display: flex;
+  gap: 20px;
+  
+}
+
+.footer-list li {
+  list-style: none;
+}
+
+.footer-list-item {
+  color: #fff;
+  text-decoration: none;
+  font-family: var(--font);
+  font-size: 1.2rem;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+.copyright {
+  background:  #182e52;
+  width: 100%;
+  height: auto;
+}
+
+.copyright h3 {
+  text-align: center;
+  color: #fff;
+  font-size: 0.9rem;
+}
+
+/* Styles for Contact page */
+.contact-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.office-image {
+  width: 100%;
+  height: 300px;
+  border-radius: 5px;
+}
+
+.card {
+  width: 300px;
+  height: 300px;
+  background: #fff;
+  box-shadow: 5px 5px 5px gray;
+}
+
+.card-title {
+  text-align: center;
+  font-family: var(--font);
+  font-size: 1.5rem;
+}
+
+.card-body {
+  margin-top: 20px;
+  padding: 20px;
+}
+
+.contact-icons {
+  width: 25px;
+  height: 25px;
+  float: left;
+  margin-right: 5px;
+}
+
+.contact-list-item {
+  list-style: none;
+  font-family: var(--font);
+  margin-left: 20px;
+  font-size: 1.1rem;
+}
+
+.card a{
+  color: black;
+  text-decoration: none;
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.text-input {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  padding: 10px;
+}
+
+.textArea {
+  width: 100%;
+  height: 100px;
+  padding: 10px;
+}
+
+.submitBtn {
+  background: var(--blue-background);
+  width: 100px;
+  height: 50px;
+  color: #fff;
+  font-family: var(--font);
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.submitBtn:hover {
+  opacity: 0.6;
+}
+
+/* styles for services pages */
+.service-cards {
+  margin-top: -40px;
+  margin-right: 20px;
+}
+
+/* Tablets */
+@media (max-width: 810px) {
+  .lower-nav h3 {
+    font-size: 1.2rem;
+  }
+
+  .top-grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .top-grid img {
+    width: 150px;
+    height: 200px;
+  }
+
+  .bottom-grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .bottom-grid img{
+    width: 150px;
+    height: 200px;
+  }
+
+  .footer-wrapper {
+    margin: 0;
+  }
+}
+
+
+/* Small screens */
+@media (max-width: 500px) {
+  .container {
+    max-width: 500px;
+    width: 80%;
+  }
+
+  .nav-contact-info {
+    display: none;
+  }
+
+  .brand {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+
+  .lower-nav h3{
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  .top-grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .top-grid img {
+    width: 150px;
+    height: 200px;
+  }
+
+  .bottom-grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .bottom-grid img{
+    width: 150px;
+    height: 200px;
+  }
+
+  .footer {
+    justify-content: center;
+  }
+
+  .footer-img {
+    display: none;
+  }
+
+  .contact-grid {
+    grid-template-columns: 1fr;
+  }
+
+}
