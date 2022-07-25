@@ -6,7 +6,7 @@ const index = () => {
     <div className='container'>
       <div className='top-grid'>
         <Link to='/cloud'>
-          <img src='images/Cloud.jpg' alt='Clout icon' />
+          <img src='images/cloud.jpg' alt='Cloud icon' />
         </Link>
         <Link to='/security'>
           <img src='images/Security.png' alt='Security icon' />
