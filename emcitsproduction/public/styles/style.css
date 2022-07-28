@@ -102,6 +102,10 @@ body {
   padding-right: 20px;
 }
 
+.disabled {
+  pointer-events: none;
+}
+
 /* Styles for Navbar */
 .nav {
   width: 100%;
@@ -284,6 +288,16 @@ body {
   cursor: pointer;
 }
 
+.goBackBtn {
+  background: var(--blue-background);
+  padding: 10px;
+  color: #fff;
+  font-family: var(--font);
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
 .submitBtn:hover {
   opacity: 0.6;
 }
@@ -296,6 +310,11 @@ body {
 
 /* Tablets */
 @media (max-width: 810px) {
+  .container {
+    max-width: 1000px;
+    width: 80%;
+  }
+
   .lower-nav h3 {
     font-size: 1.2rem;
   }
@@ -325,6 +344,17 @@ body {
   .footer-wrapper {
     margin: 0;
   }
+
+ .contact-grid {
+  grid-template-columns: 1fr;
+ }
+
+ .contact-card {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+ }
+
 }
 
 
@@ -332,7 +362,7 @@ body {
 @media (max-width: 500px) {
   .container {
     max-width: 500px;
-    width: 80%;
+    width: 90%;
   }
 
   .nav-contact-info {
@@ -382,6 +412,16 @@ body {
 
   .contact-grid {
     grid-template-columns: 1fr;
+  }
+
+  .form-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .contact-card {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
   }
 
 }
