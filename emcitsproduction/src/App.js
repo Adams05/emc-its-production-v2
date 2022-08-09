@@ -11,6 +11,7 @@ import Wireless from './components/pages/Wireless';
 import Cabling from './components/pages/Cabling';
 import SecurityCameras from './components/pages/SecurityCameras';
 import NotFound from './components/pages/NotFound';
+import About from './components/pages/About';
 
 // Main app component
 function App() {
@@ -29,6 +30,7 @@ function App() {
           <Route path='/cabling' element={<Cabling />} />
           <Route path='/securitycameras' element={<SecurityCameras />} />
           <Route path='*' element={<NotFound />} />
+          <Route path='/about' element={<About />} />
         </Routes>
         <Footer />
       </Router>

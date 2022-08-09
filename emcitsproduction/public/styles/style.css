@@ -41,6 +41,10 @@ body {
   display: block;
 }
 
+.medium-text {
+  font-size: 1.2rem;
+}
+
 .large-title {
   font-size: 2.0rem;
   font-family: var(--font);
@@ -306,6 +310,14 @@ body {
 .service-cards {
   margin-top: -40px;
   margin-right: 20px;
+}
+
+/* Styles for about page */
+.about-card {
+  width: 100%;
+  height: auto;
+  background: #fff;
+  border-radius: 5px;
 }
 
 /* Tablets */
