@@ -60,7 +60,7 @@ const Contact = () => {
                 />
                 <li className='contact-list-item'>
                   {' '}
-                  <b> Address:</b> 17138 Lorain Ave
+                  <b> Address:</b> 17138 Lorain Ave. <br />2nd Floor, Cleveland OH. 44111
                 </li>
                 <br />
                 <img
@@ -82,7 +82,7 @@ const Contact = () => {
                   {' '}
                   <b> Email:</b>{' '}
                   <a href='mailto:support@emcitsolutions.com'>
-                    support@emcitsolutions.com
+                    support@emcits.com
                   </a>
                 </li>
               </ul>
