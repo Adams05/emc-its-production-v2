@@ -139,7 +139,11 @@ body {
   left: -500px;
 }
 
-.main-menu-icon {
+.main-menu-icon{
+  display: none;
+}
+
+.menu-icon {
   display: none;
 }
 
@@ -518,6 +522,7 @@ body {
     width: 30px;
     height: 30px;
     cursor: pointer;
+    display: block;
   }
 
 }
