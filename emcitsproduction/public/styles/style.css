@@ -461,13 +461,19 @@ body {
   }
 
   /* Styles for Mobile Nav */
+  .mobile-container {
+    max-width: 500px;
+    width: 90%;
+    margin: auto;
+  }
+
   .mobile-nav {
     display: block;
     position: absolute;
     top: 0;
     left: 0;
     height: 100%;
-    width: 60%;
+    width: 80%;
     background: #cccccc;
     border-right: gray 1px solid;
     z-index: 100;
@@ -497,11 +503,6 @@ body {
     color: #fff;
   }
 
-  .mobile-icons {
-    display: flex;
-    flex-direction: column;
-  }
-
   .mobile-icons a{
     text-decoration: none;
   }
@@ -514,8 +515,8 @@ body {
 
   .menu-icon {
     float: right;
-    width: 25px;
-    height: 50px;
+    width: 30px;
+    height: 30px;
     cursor: pointer;
   }
 
