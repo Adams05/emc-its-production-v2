@@ -5,10 +5,10 @@ const Cloud = () => {
     <>
       <div className='container'>
         <div className='banner-img'>
-          <img src="images/Cloude-image.png" alt='cloud' />
+          <img src="images/Cloude-image.jpg" alt='cloud' />
         </div>
         <div className='flex'>
-          <img src="images/Cloud.png" alt='cloud card' className="service-cards"/>
+          <img src="images/cloud.jpg" alt='cloud card' className="service-cards"/>
           <div>
             <h3 className='small-title blue'>Cloud</h3>
             <p className='font'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 

@@ -12,17 +12,17 @@ const About = () => {
             Managers and Businesses seeking additional expertise, resources, or assistance with solutions and process.   
             EMC’s focuses is on implementing next generation technologies for discerning SMB and Mid-sized Enterprises, 
             while maintaining the traditional systems and infrastructure required for day to day operations.</p>
-            <br />
+          <br />
           <p className='font medium-text'>
-          EMC I.T. Solutions was started in 2017 as the natural progression for Damon Galt, President of EMC ITS.  
-          He acquired his existing clients in a friendly separation from his old company so he could focus exclusively on providing services to Businesses, 
-          and to grow the staff and expertise. Revenues have since doubled, staff grown, and senior level team members have been added. 
+            EMC I.T. Solutions was started in 2017 as the natural progression for Damon Galt, President of EMC ITS.  
+            He acquired his existing clients in a friendly separation from his old company so he could focus exclusively on providing services to Businesses, 
+            and to grow the staff and expertise. Revenues have since doubled, staff grown, and senior level team members have been added. 
           </p>
           <br />
           <p className='font medium-text'>
-          As EMC has grown, so have our clients.  We now provided Expert Guidance, Consulting, Contractual CTO/I.T. Manger roles, Daily Support, and assistance to a multitude of clients, 
-          Municipalities, private enterprises, 501C3s, and NGOs.  EMC has a broad, and deep set of experience to draw from, and strategic partnerships in place to augment and weakness.
-          Those partnerships extend to Cisco Enterprise partners, VMWare Experts, Certified Security and Forensics providers, and more. 
+            As EMC has grown, so have our clients.  We now provided Expert Guidance, Consulting, Contractual CTO/I.T. Manger roles, Daily Support, and assistance to a multitude of clients, 
+            Municipalities, private enterprises, 501C3s, and NGOs.  EMC has a broad, and deep set of experience to draw from, and strategic partnerships in place to augment and weakness.
+            Those partnerships extend to Cisco Enterprise partners, VMWare Experts, Certified Security and Forensics providers, and more. 
           </p>
         </div>
       </div>
