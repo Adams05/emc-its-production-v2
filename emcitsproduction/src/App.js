@@ -18,7 +18,7 @@ function App() {
   return (
     <div className='App'>
       <Router>
-        <Nav />
+        <Nav /> 
         <Routes>
           <Route exact path='/' element={<Home />}></Route>
           <Route path='/contact' element={<Contact />} />
