@@ -42,7 +42,7 @@ const Nav = () => {
        </div>
       </div>
       <div className='lower-nav'>
-        <h3 className='medium-title white'>Outsourced I.T. Solutions, Consulting & Technology Integration for Greater Cleveland</h3>
+        <h3 className='medium-title white'>I.T. Solutions, I.T. Support, Consulting & Technology Integration for Greater Cleveland - Since 2001</h3>
       </div>
     </>
     
