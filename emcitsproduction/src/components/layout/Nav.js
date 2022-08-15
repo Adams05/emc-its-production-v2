@@ -14,9 +14,9 @@ const Nav = () => {
       <div className='mobile-container'>
         <img src='images/menu-icon.png' alt='menu icon' className='menu-icon' id='mobileIcon' onClick={showMenu}/>
           <ul className='mobile-nav-list'>
-            <Link to ='/'><li>Home</li></Link>
-            <Link to ='/about'><li>About</li></Link>
-            <Link to ='/contact'><li>Contact</li></Link>
+            <a href ='/'><li>Home</li></a>
+            <a href ='/about'><li>About</li></a>
+            <a href ='/contact'><li>Contact</li></a>
           </ul>
           <div className='mobile-icons'>
             <h3 className='font mb-2'><img src="images/phone-icon.jpg" alt="phone icon" className='contact-icons'/> <a href="tel:2166723840">216.672.3840</a></h3>
