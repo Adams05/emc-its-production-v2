@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import Cookie from '../layout/Cookie';
 
 const index = () => {
   return (
@@ -29,6 +30,7 @@ const index = () => {
           <img src='images/Security-Camera.png' alt='Security Icon' />
         </Link>
       </div>
+      <Cookie />
     </div>
   );
 };

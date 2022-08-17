@@ -364,6 +364,12 @@ body {
   margin-right: 20px;
 }
 
+.service-imgs {
+  width: 100%;
+  height: auto;
+
+}
+
 /* Styles for about page */
 .about-card {
   width: 100%;
@@ -371,6 +377,49 @@ body {
   background: #fff;
   border-radius: 5px;
   box-shadow: 5px 5px 5px gray;
+}
+
+/* Styles for cookie bar */
+.cookie-bar {
+  width: 100%;
+  height: 100px;
+  background: #d9d9d9;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  font-family: var(--font)
+}
+
+.accept-btn {
+  background: var(--blue-background);
+  width: 100px;
+  height: 30px;
+  color: #fff;
+  font-family: var(--font);
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.learn-btn {
+  background: var(--gray-background);
+  width: 100px;
+  height: 30px;
+  color: #fff;
+  font-family: var(--font);
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.accept-btn:hover {
+  opacity: 0.4;
+}
+
+.learn-btn:hover {
+  opacity: 0.4;
 }
 
 /* Tablets */
@@ -487,6 +536,17 @@ body {
     margin-left: auto;
     margin-right: auto;
     display: block;
+  }
+
+  .service-cards {
+    display: none;
+  }
+
+  /* Styles for Cookie bar */
+  .cookie-bar {
+    width: 100%;
+    height: 100px;
+    background: red;
   }
 
   /* Styles for Mobile Nav */
