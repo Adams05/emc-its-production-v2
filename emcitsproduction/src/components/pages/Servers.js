@@ -5,7 +5,7 @@ const Cloud = () => {
     <>
       <div className='container'>
         <div className='banner-img'>
-          <img src="images/Server-Image.jpg" alt='Servers' />
+          <img src="images/Server-Image.jpg" alt='Servers' className='service-imgs'/>
         </div>
         <div className='flex'>
           <img src="images/Servers.png" alt='Servers card' className="service-cards"/>
